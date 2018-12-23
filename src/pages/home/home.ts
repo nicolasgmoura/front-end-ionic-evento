@@ -72,8 +72,8 @@ export class HomePage {
   criarEvento(){
     let url = this.API_URL+"criar";
 
-    this.evento.latitude = "545d4"
-    this.evento.longitude = "df4d54";
+    //this.evento.latitude = "545d4"
+    //this.evento.longitude = "df4d54";
 
     if(this.tirou==false){
       this.toastMessage("Ops, você ainda não tirou uma foto !")
